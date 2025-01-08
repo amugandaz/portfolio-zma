@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    </script>
+    <script>
+        document.addEventListener('keydown', function (event) {
+            // Bloque F12
+            if (event.key === "F12") {
+                event.preventDefault();
+            }
+            // Bloque Ctrl+Shift+I (Inspecter)
+            if (event.ctrlKey && event.shiftKey && event.key === "I") {
+                event.preventDefault();
+            }
+            // Bloque Ctrl+U (Afficher le code source)
+            if (event.ctrlKey && event.key === "u") {
+                event.preventDefault();
+            }
+        });
+    </script>
+    <script>
+        console.log("%cSTOP!", "color: red; font-size: 50px; font-weight: bold;");
+        console.log("Inspecter le code source est une infraction au respect de l'auteur.");
+    </script>            
+</head>
+<body>
+    <header class="navbar">
+        <div class="side-icons">
+            <a href="https://github.com/amugandaz" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aaronmuganda/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:azmuganda@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="resume.pdf" download class="btn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/photo.jpeg" alt="Aaron Muganda" class="profile-photo">
+        <div class="intro">
+            <h1>Hi, my name is <span class="highlight">Aaron Muganda</span>.</h1>
+        <p>
+            I'm passionate about software and web development, creating innovative solutions, and designing user-centric applications. I enjoy building robust systems that solve real-world problems and drive impactful decisions.
+        </p>
+        <a href="#projects" class="cta">See my work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About me</h2>
+        <p>
+            Hey! My name is Aaron, and I'm a software engineering student with a minor in management and entrepreneurship in engineering. I enjoy designing, creating, and maintaining software solutions that combine technical precision with innovative user-centric strategies.
+        </p>
+        <p>
+            I'm currently learning advanced software development techniques, including building scalable systems and creating dynamic user interfaces. I'm also looking to collaborate on projects involving web applications, real-time systems, or designing intuitive user experiences.
+        </p>
+        <h3>Interests</h3>
+            <ul>
+                <li>• Software Development</li>
+                <li>• Scalable System Design</li>
+                <li>• Real-Time Applications</li>
+                <li>• User-Centric Interfaces</li>
+                <li>• Agile Development</li>
+                <li>• Dynamic Web Applications</li>
+            </ul>
+
+        <h3>Technologies and Tools</h3>
+        <ul>
+            <li>•	HTML</li>
+            <li>•	CSS</li>
+            <li>•	Bootstrap</li>
+            <li>•	C</li>
+            <li>•	C++</li>
+            <li>•	Python</li>
+            <li>•	Java</li>
+            <li>•	Kotlin</li>
+            <li>•	JavaScript</li>
+            <li>•	TypeScript</li>
+            <li>•	Spring Boot</li>
+            <li>•	Node.js</li>
+            <li>•	React.js</li>
+            <li>•	Vue.js</li>
+            <li>•	Angular</li>
+            <li>•	R</li>
+            <li>•	DAX</li>
+            <li>•	SQL</li>
+            <li>•	MySQL</li>
+            <li>•	NoSQL</li>
+            <li>•	MongoDB</li>
+            <li>•	PostgreSQL</li>
+            <li>•	Docker</li>
+            <li>•	GraphQL</li>
+            <li>•	Insomnia</li>
+            <li>•	Postman</li>
+            <li>•	Power BI</li>
+            <li>•	Power Apps</li>
+            <li>•	Power Automate</li>
+            <li>•	Power Query</li>
+            <li>•	Dataverse</li>
+            <li>•	Microsoft Exel</li>
+            <li>•	Microsoft SharePoint</li> 
+        </ul>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Data Analyst @ <a href="https://www.intact.ca/" target="_blank">Intact</a></h3>
+            <p>Jan 2024 – Apr 2024</p>
+            <ul>
+                <li>•	Imported and formatted data from various sources and databases using MongoDB</li>
+                <li>•	Developed data visualizations with Power BI</li>
+                <li>•	Set up monthly reporting with process automation</li>
+                <li>•	Maintained and analyzed performance metrics and reports that support data-driven decision-making</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>BI Analyst / Developer @ <a href="https://www.krugerproducts.ca/" target="_blank">Kruger Products</a></h3>
+            <p>Sep 2023 – Dec 2023</p>
+            <ul>
+                <li>•	Automated and computerized a management system for receiving vital products, cartons, and paper rolls using Power Automate and Power Apps</li>
+                <li>•	Developed performance tracking tools and automated process execution</li>
+                <li>•	Developed various applications to meet internal client needs using Power Apps</li>
+                <li>•	Developed electronic inspection tools in the factory using Microsoft Power Platform</li>
+                <li>•	Created and maintained reports and dashboards using Power BI</li>
+                <li>•	Maintained and analyzed performance metrics and reports that support data-driven decision-making</li>
+                <li>•	Developed effective communication tools</li>
+                <li>•	Provided support for large-scale project deployment aimed at continuous process improvement in logistics</li>
+                <li>•	Developed and maintained data pipelines</li>
+                <li>•	Assisted in solving technical IT problems</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>BI Analyst / Developer @ <a href="https://www.bombardier.com/" target="_blank">Bombardier</a></h3>
+            <p>Jan 2023 – Apr 2023</p>
+            <ul>
+                <li>•	Improved existing data reports with Power BI</li>
+                <li>•	Participated in the development of factory performance tools by creating applications</li>
+                <li>•	Analyzed data, data models, databases, data flows, and reports using Power BI</li>
+                <li>•	Built performance indicators with Power BI</li>
+                <li>•	Managed the creation and importation of data, data models, databases, and data flows with Power BI</li>
+                <li>•	Developed various applications to meet internal client needs </li>
+                <li>•	Managed and planned BI projects with stakeholders from development projects</li>
+                <li>•	Designed tools for performance monitoring and optimization</li>
+                <li>•	Interacted with internal clients and stakeholders</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Mealer-app" target="_blank">Mealer app</a>
+                </h3>
+                <p>Java, Firebase, Android Studio, Intellij IDEA, GitHub</p>
+                <p>
+                    The project, titled e-Hotels, involves developing a website that allows five hotel chains in North America to collaborate through a centralized platform. 
+                    This website will enable clients to view room availability in real-time and make reservations or bookings.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Console-Based-Card-Game" target="_blank">Console Based Card Game</a>
+                </h3>
+                <p>C++, Visual Studio, VS Code, GitHub</p>
+                <p>
+                    The project, titled e-Hotels, involves developing a website that allows five hotel chains in North America to collaborate through a centralized platform. 
+                    This website will enable clients to view room availability in real-time and make reservations or bookings.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/e-Hotels/tree/main" target="_blank">e-hotels</a>
+                </h3>
+                <p>HTML, CSS, JavaScript, Node.js, PostgreSQL/MySQL, SQL, GitHub</p>
+                <p>
+                    The project, titled e-Hotels, involves developing a website that allows five hotel chains in North America to collaborate through a centralized platform. 
+                    This website will enable clients to view room availability in real-time and make reservations or bookings.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Web-Services-Data-Rest" target="_blank">Web Services Data Rest</a>
+                </h3>
+                <p>Kotlin, Spring Boot, Angular, HTML, CSS, JavaScript, TypeScript, MySQL, VS Code, Postman, GitHub</p>
+                <p>
+                    The project involves developing a Spring Boot RESTful web service and an Angular client application for managing a bookstore's data. 
+                    The backend API, backed by a MySQL database, supports CRUD operations for entities like books, authors, and orders while adhering to the HATEOAS principles to include hyperlinks in API responses. 
+                    The API also integrates with SpringDoc to generate OpenAPI documentation. 
+                    The Angular client interacts with this API for data retrieval and manipulation, such as adding books and authors or querying author details. 
+                    The project requires extending the application by adding a menu option to display author information based on user input, ensuring robust interaction between the client and the RESTful API.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Web-Services-GraphQL" target="_blank">Web Services GraphQL</a>
+                </h3>
+                <p>Kotlin, Spring Boot, Angular, HTML, CSS, TypeScript, NoSQL, MongoDB, VS Code, Postman, GitHub</p>
+                <p>
+                    This project introduces the development of GraphQL web services using Spring Boot for the backend and an Angular application as the client. 
+                    The main objectives include creating a GraphQL API to interact with a NoSQL database (MongoDB) and extending a client application to consume this API.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Web-Services-RESTful" target="_blank">Web Services RESTful</a>
+                </h3>
+                <p>Kotlin, Spring Boot, VS Code, Postman, GitHub</p>
+                <p>
+                    The project involves implementing a RESTful web service using Spring Boot for a calculator. 
+                    The service must provide endpoints for basic arithmetic operations, including addition, subtraction, multiplication, and division. 
+                    Each operation will be implemented as a GET request with the corresponding route (e.g., /calculator/add/{num1}/{num2} for addition). 
+                    Additionally, the project requires generating OpenAPI documentation for the service to enhance usability and provide a clear specification of its functionalities.
+                    The service must expose endpoints to make calculations such as addition, soustraction, multiplication and division.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Calculator-Angular" target="_blank">Calculator Angular</a>
+                </h3>
+                <p>Angular, HTML, CSS, TypeScript, VS Code, GitHub</p>
+                <p>
+                    The project involves developing a basic calculator application using Angular. 
+                    The application should allow users to input two numbers and select a mathematical operation—addition (+), subtraction (-), multiplication (*), or division (/). 
+                    Upon submission, the application will perform the chosen operation and display the result in a user-friendly interface.
+                    The project emphasizes the practical application of Angular concepts, such as component creation, TypeScript usage, and unit testing with Jasmine, to build a simple yet functional application while adhering to best development practices.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Calculator-Spring" target="_blank">Calculator Spring</a>
+                </h3>
+                <p>Kotlin, Spring Boot, HTML, CSS, VS Code, GitHub</p>
+                <p>
+                    The project involves re-implementing the basic calculator from the previous lab as a Spring MVC application with Thymeleaf. 
+                    The application should allow users to input two numbers and select an operation (addition, subtraction, multiplication, or division). 
+                    The selected operation should be processed on the server side, and the result should be displayed on a web page using Thymeleaf templates. 
+                    The project emphasizes using Spring Boot for application configuration, building, and running, as well as leveraging Thymeleaf for dynamic HTML rendering.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Angular-Web-From" target="_blank">Angular Web From</a>
+                </h3>
+                <p>Angular, HTML, CSS, TypeScript, VS Code, GitHub</p>
+                <p>
+                    The project involves implementing an Angular application using a reactive form to collect user information, including first name, last name, phone number, and email.
+                    Upon successful submission of valid data, the application navigates to a new page displaying the submitted user data in a table. Appropriate error messages should appear for invalid inputs.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Shopping-List" target="_blank">Shopping List</a>
+                </h3>
+                <p>Angular, HTML, CSS, TypeScript, VS Code, GitHub</p>
+                <p>
+                    The project involves developing an Angular application for a shopping list. The application includes a text input field and an "Add" button. 
+                    Users can enter an item in the text field and add it to the shopping list by clicking the button. Each item in the list is displayed alongside a "Delete" button, allowing users to remove it from the list. 
+                    The implementation must feature at least two Angular components: one for the text input and the "Add" button, and another for displaying the list of items with their associated "Delete" buttons.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/DBScan" target="_blank">DBScan</a>
+                </h3>
+                <p>Java, VS Code, GitHub</p>
+                <p>
+                    This project focuses on the implementation and application of the DBScan (Density-Based Spatial Clustering of Applications with Noise) algorithm, a popular clustering technique widely used for its ability to discover clusters of arbitrary shape and effectively handle noise in datasets. Unlike traditional clustering algorithms such as K-Means, DBScan does not require the number of clusters to be specified in advance. Instead, it relies on two key parameters—epsilon (ε), which defines the neighborhood radius, and MinPts, the minimum number of points required to form a dense region.
+                    The project is divided into three main components: the core implementation of DBScan, experimental setups to evaluate the algorithm, and a detailed report documenting the results. The implementation leverages efficient data structures like KD-Trees and nearest neighbor search algorithms to optimize the clustering process, particularly for large datasets or high-dimensional spaces.
+                    <p>
+                        Experiments are conducted on synthetic datasets with varying complexity:
+                        <ul>
+                            <li>•	Exp1: Single Dominant Cluster, which explores clustering on a dataset with a single dominant cluster to validate the algorithm's ability to group dense regions accurately.</li>
+                            <li>•	Exp2: Two Distinct Clusters, which evaluates DBScan's performance on a dataset containing two distinct clusters, highlighting its precision in identifying separable groups.</li>
+                            <li>•	Exp3: Three Clusters with Noise, which applies the algorithm to a more complex dataset with three clusters and regions of noise, showcasing DBScan's strength in distinguishing clusters of varying density and ignoring outliers effectively.</li>
+                        </ul>
+                    </p>
+                    The project outcomes demonstrate how DBScan adapts to different datasets without requiring prior assumptions about the number of clusters. 
+                    This flexibility, combined with its robustness to noise, makes DBScan a valuable tool for real-world applications, including geospatial analysis, anomaly detection, and image segmentation. 
+                    The detailed report further elaborates on parameter tuning, challenges encountered, and the insights gained from the experiments.
+                    By providing a comprehensive exploration of DBScan, this project highlights its versatility and effectiveness in clustering tasks, making it a vital algorithm in the field of unsupervised machine learning.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>
+                    <a href="https://github.com/amugandaz/Power-BI-Dashboards/tree/main" target="_blank">Power BI Dashboards</a>
+                </h3>
+                <p>Python, Power BI, VS Code, GitHub</p>
+                <p>
+                    The project involves generating data in CSV format using Python scripts and leveraging it to create interactive dashboards in Power BI. 
+                    The Python scripts handle data extraction, cleaning, and transformation from various sources, preparing it for analysis. 
+                    The CSV files are then imported into Power BI, where the data is modeled and visualized through dynamic dashboards tailored for specific use cases, such as analyzing car manufacturers' performance, football team statistics, NBA team insights, and NHL team data. 
+                    The combination of Python and Power BI ensures a streamlined process for data-driven decision-making and interactive exploration.
+                </p>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aaron Muganda</p>
+    </footer>
+</body>
+</html>

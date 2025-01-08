@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #f0f6fc;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem 1rem;
+    text-align: justify;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #161b22;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar ul li a.btn {
+    background-color: #238636;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-content {
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+/* Section Titles */
+h2 {
+    text-align: left;
+}
+
+/* Experience Section */
+.job {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+
+li {
+    margin-bottom: 1rem; 
+    line-height: 1.6; 
+    text-indent: -1.5em; 
+    padding-left: 1.5em; 
+}
+
+li span {
+    white-space: nowrap; 
+}
+}
